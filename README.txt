@@ -1,17 +1,18 @@
 #Udp File Sharing
 This application allow computers to share .txt files with the UDP protocol, and a private application protocol, that control the syncronization of the files. You need to type the IPs addresses of all computer connected in the network.
 
-## :file_folder: Requirements
+##:file_folder: Requirements
 1. Java
 2. Javac
 
-## :rocket: How it work
+##:rocket: How it work
 Each instance of the this program will make continuous requisitions to all computers IP typed in the config.txt, that will send you a properly response.
-FORMAT OF THE PROTOCOL
+###Protocol´s format
 | Message | What it mean |
+| --- | --- |
 |"PTA" | One computer requ | 
 
-## :rocket: How to run it
+##:rocket: How to run it
 ```bash
 # Clone this repository
 git clone https://github.com/brunopozzebon/udp-file-sharing.git
@@ -33,3 +34,4 @@ If you aren´t, you need to compile the files manually, and the, run ./Test in s
 
 ```
 
+s
