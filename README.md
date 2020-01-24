@@ -9,13 +9,15 @@ This application allow computers to share .txt files with the UDP protocol, and 
 First we need a network of computers running this program (or something with the same protocol). Each computer will have a list of IP´s, registered manually in config.txt. This program will make continuous requests to each computer in the list, and wait for the response, as described in the protocol.
 
 ## :rocket: How to run it
-```bash
+
 # Clone this repository
+```bash
 git clone https://github.com/brunopozzebon/udp-file-sharing.git
-
+```
 # Go into the repository
+```bash
 cd udp-file-sharing
-
+```
 # Create your network
 Put all IP´s of the computer that you need to connect in config.txt.
 Which IP need to be in own line, ending with ";". Like the example below:
@@ -28,4 +30,4 @@ If you´re in a unix like OS, you can run the app.sh
 (It´ll compile the java files and executed the program)
 If you aren´t, you need to compile the files manually, and the, run ./Test in shellscript
 
-```
+
