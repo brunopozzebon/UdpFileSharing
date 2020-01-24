@@ -10,22 +10,22 @@ First we need a network of computers running this program (or something with the
 
 ## :rocket: How to run it
 
-# Clone this repository
+Clone this repository
 ```bash
 git clone https://github.com/brunopozzebon/udp-file-sharing.git
 ```
-# Go into the repository
+Go into the repository
 ```bash
 cd udp-file-sharing
 ```
-# Create your network
+Create your network
 Put all IP´s of the computer that you need to connect in config.txt.
 Which IP need to be in own line, ending with ";". Like the example below:
 127.0.0.1;
 127.0.0.2;
 These computers need to have the same application running, to make the service work well.
 
-#Compile the files
+Compile the files
 If you´re in a unix like OS, you can run the app.sh
 (It´ll compile the java files and executed the program)
 If you aren´t, you need to compile the files manually, and the, run ./Test in shellscript
